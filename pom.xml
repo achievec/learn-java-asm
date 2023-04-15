@@ -42,6 +42,11 @@
             <artifactId>asm-analysis</artifactId>
             <version>${asm.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>30.0-jre</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -58,7 +63,7 @@
                     <compilerArgs>
                         <arg>-g</arg>
                         <arg>-parameters</arg>
-<!--                        <arg>-XDignore.symbol.file</arg>-->
+                        <!--                        <arg>-XDignore.symbol.file</arg>-->
                     </compilerArgs>
                 </configuration>
             </plugin>
